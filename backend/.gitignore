@@ -1,0 +1,19 @@
+# Environment Variables & Secrets
+.env
+.env.*
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Media & Database & Staticfiles
+media/
+staticfiles/
+*.sqlite3
+*.log
